@@ -282,6 +282,40 @@ body {
   font-weight: 600;
 }
 
+/* contact section style */
+
+.contact {
+  width: 800px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  background-color: #ff900e;
+  padding: 50px 0px;
+  border-radius: 8px;
+}
+
+.input-box {
+  width: 400px;
+  padding: 15px 20px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: 0;
+  outline: rgb(73, 73, 255);
+}
+
+.form {
+  text-align: end;
+}
+
+.btn-submit {
+  background-color: rgb(70, 70, 252);
+  border: 0;
+  color: white;
+  padding: 15px 40px;
+  font-weight: bold;
+  border-radius: 8px;
+}
+
 /* our sponsors section style */
 .sponsors {
   text-align: center;
@@ -291,6 +325,7 @@ body {
 .sponsors-title {
   width: 550px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .sponsors-title h2 {
