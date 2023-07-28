@@ -47,7 +47,7 @@ body {
 .nav ul li a {
   text-decoration: none;
   color: #424242;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 500;
   line-height: 26px;
 }
@@ -55,7 +55,7 @@ body {
 /* banner style */
 .banner {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 80px;
 }
 
 .banner-text {
@@ -79,7 +79,7 @@ body {
   margin: 10px 0px;
 }
 
-.banner-text button {
+.btn-primary {
   border-radius: 8px;
   background: #ff900e;
   border: 0;
@@ -90,5 +90,49 @@ body {
 }
 
 .banner-img img {
+  height: 700px;
   width: 100%;
+}
+
+/* features section style */
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 76px;
+  margin-top: 50px;
+}
+
+.feature-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.feature-images img {
+  width: 300px;
+}
+
+.feature-text-one {
+  color: #727272;
+  font-size: 45px;
+  font-weight: 500;
+}
+.feature-text-two {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+}
+.feature-text-three {
+  color: #ff900e;
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.features-text p {
+  color: #727272;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 10px 0px;
 }
