@@ -95,6 +95,7 @@ body {
 }
 
 /* features section style */
+
 .feature {
   display: flex;
   align-items: center;
@@ -137,6 +138,10 @@ body {
   margin: 10px 0px;
 }
 
+.services-feature {
+  position: relative;
+}
+
 .feature-services-section {
   display: flex;
   align-items: center;
@@ -175,7 +180,7 @@ body {
   border-radius: 8px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-  margin-bottom: 30px;
+  margin-bottom: 25px;
 }
 
 .service h4 {
@@ -190,4 +195,30 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
+}
+
+.experience {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 250px;
+  height: 150px;
+  color: white;
+  background-color: #ff900e;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 560px;
+}
+
+.experience h1 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.experience p {
+  font-size: 18px;
+  font-weight: 500;
 }
