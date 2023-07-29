@@ -92,6 +92,7 @@ body {
 .banner-img img {
   height: 700px;
   width: 100%;
+  margin: 0 auto;
 }
 
 /* features section style */
@@ -285,7 +286,7 @@ body {
 /* contact section style */
 
 .contact {
-  width: 800px;
+  width: 80%;
   display: flex;
   justify-content: center;
   margin: 50px auto;
@@ -369,4 +370,38 @@ body {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* media query styles */
+
+@media screen and (max-width: 576px) {
+  .nav ul {
+    display: none;
+  }
+
+  .banner-img img {
+    width: 100%;
+  }
+  .banner-text {
+    width: 100%;
+  }
+  .feature {
+    flex-direction: column;
+  }
+  .feature-images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .feature-images img {
+    width: 100%;
+  }
+  .feature-services-section {
+    display: flex;
+    flex-direction: column;
+  }
+  .fact-cards {
+    flex-direction: column;
+  }
+  .sponsors-logos {
+    flex-direction: column;
+  }
 }
